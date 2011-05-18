@@ -8,16 +8,20 @@ Support for jsmin and CSSTidy is included and enabled by default (but can
 easily be disabled). Support for YUI Compressor is also supported out of the 
 box.
 
+Includes support for compressing HTML via the middleware patch posted 
+with this Google code issue[1]
+
 django-compress includes template tags for outputting the URLs to the 
 CSS/JavaScript?-files and some other goodies to improve the performance of 
 serving static media.
 
-django-compress is available at github[1] and Google Code[2]. You can always 
+django-compress is available at github[2] and Google Code[3]. You can always 
 access the latest and greatest code from both git and Subversion.
 
-The documentation is available online at Github[3], or under docs/ in the 
+The documentation is available online at Github[4], or under docs/ in the 
 source.
 
-[1] http://github.com/pelme/django-compress/tree/master
-[2] http://code.google.com/p/django-compress/
-[3] http://github.com/pelme/django-compress/tree/master/docs
+[1] http://code.google.com/p/django-compress/issues/detail?id=38
+[2] http://github.com/pelme/django-compress/tree/master
+[3] http://code.google.com/p/django-compress/
+[4] http://github.com/pelme/django-compress/tree/master/docs
