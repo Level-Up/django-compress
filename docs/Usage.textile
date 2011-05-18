@@ -17,6 +17,10 @@ The command is
 
 (assuming you are in you project-folder that contains <tt>manage.py</tt>). To force all files to be re-generated, use the argument <tt>--force</tt> (e.g. <tt>./manage.py synccompress --force</tt>)
 
+h3. HTML Compression Middleware
+
+To enable HTML compression add <tt>'compress.middleware.MinifyHTMLMiddleware',</tt> to your middleware classes. Ensure that it comes before any middleware which GZips/etc your HTML.
+
 h3. Templatetags
 
 django-compress includes two template tags: <tt>compressed_css</tt> and <tt>compressed_js</tt>, in a template library called <tt>compressed</tt>
